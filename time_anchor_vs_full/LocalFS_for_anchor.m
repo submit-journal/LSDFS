@@ -1,6 +1,5 @@
 
 function [time1,W, opt_index,  obj_value, obj2]= LocalFS_for_anchor(X, Y, opt)
-% Fast Adaptive Local Linear Discriminant Analysis
 % min_{P1=1,||W||_{2,0}=h,Z} \sum\limits_{i = 1}^c 
 % {\sum\limits_{j = 1}^{{n_i}} {\sum\limits_{t = 1}^{{m_i}}
 % {{{\left( {P_{jt}^i} \right)}^r}\left\| {{W^T}x_j^i - Z_t^i} \right\|_2^2} } } - lambda*Tr(W^TStW)  
